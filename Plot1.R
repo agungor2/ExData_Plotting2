@@ -5,6 +5,10 @@ library(useful)
 library(pbapply)
 
 #######################################################################
+<<<<<<< HEAD
+=======
+#######################################################################
+>>>>>>> d1bc3d35d24f2d5be35d30f24ea4fb7794e119ae
 
 urlLink = "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip"
 
@@ -40,7 +44,10 @@ if(!exists("SCC")){
         SCC <- readRDS("./data/Source_Classification_Code.rds")
 }
 
+<<<<<<< HEAD
 #######################################################################
+=======
+>>>>>>> d1bc3d35d24f2d5be35d30f24ea4fb7794e119ae
 aggregatedTotalByYear <- aggregate(Emissions ~ year, NEI, sum)
 
 # Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? 
