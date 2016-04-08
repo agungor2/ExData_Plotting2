@@ -40,7 +40,9 @@ if(!exists("SCC")){
         SCC <- readRDS("./data/Source_Classification_Code.rds")
 }
 
+
 #######################################################################
+
 aggregatedTotalByYear <- aggregate(Emissions ~ year, NEI, sum)
 
 # Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? 
